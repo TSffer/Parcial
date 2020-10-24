@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/preguntas_en_presente_simple"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="158dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="128dp"
+        android:clickable="false"
+        android:onClick="Animalciervo1"
+        android:visibility="visible"
+        app:layout_constraintEnd_toStartOf="@+id/iv2"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/fondoi" />
+
+    <ImageView
+        android:id="@+id/iv3"
+        android:layout_width="158dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="100dp"
+        android:onClick="Animalciervo2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/iv4"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv1"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@mipmap/fondoi" />
+
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="158dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="28dp"
+        android:onClick="Animalperro1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/fondoi" />
+
+    <ImageView
+        android:id="@+id/iv4"
+        android:layout_width="158dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="28dp"
+        android:onClick="Animalperro2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv2"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@mipmap/fondoi" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="54dp"
+        android:layout_height="19dp"
+        android:text="@string/lvl1"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/iv1"
+        app:layout_constraintEnd_toStartOf="@+id/tv2"
+        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.761" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="76dp"
+        android:hint="@string/ptj"
+        android:text="@string/ptj"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/iv2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="234dp"
+        android:layout_height="57dp"
+        android:fontFamily="casual"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textColor="#562F9A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
