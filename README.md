@@ -8,6 +8,6 @@
 - Mostrar un mensaje cada vez  que la jugada sea correcta o no.
 
 <p align="center">
-  <img src="your_relative_path_here" width="350" title="hover text">
-  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+  <img src="https://github.com/TSffer/Parcial/blob/main/Screenshot/Screenshot_20201023-212816_Parcial.jpg" width="350" title="hover text">
+  <img src="https://github.com/TSffer/Parcial/blob/main/Screenshot/Screenshot_20201023-212816_Parcial.jpg" width="350" alt="accessibility text">
 </p>
